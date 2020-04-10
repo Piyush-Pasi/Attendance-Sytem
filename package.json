@@ -1,8 +1,9 @@
 {
-  "name": "testattendance",
+  "name": "barcode-attendance-system",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+	"start": "node ./src/nodejs/getData.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -58,5 +59,22 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "Cloud Based Attendance System using ExpressJS and VueJS\r Repo under development",
+  "main": "../src/nodejs/getData.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush-Pasi/Attendance-Sytem.git"
+  },
+  "keywords": [
+    "Cloud",
+    "Vuejs",
+    "ExpressJS"
+  ],
+  "author": "Piyush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Piyush-Pasi/Attendance-Sytem/issues"
+  },
+  "homepage": "https://github.com/Piyush-Pasi/Attendance-Sytem#readme"
 }
